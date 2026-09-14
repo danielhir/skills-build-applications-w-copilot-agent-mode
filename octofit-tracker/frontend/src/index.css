@@ -1,0 +1,30 @@
+:root {
+  --ink: #17251d;
+  --muted: #69756d;
+  --paper: #f5f6f1;
+  --surface: #ffffff;
+  --line: #dfe5dd;
+  --green: #2c684d;
+  --green-soft: #e4f0e8;
+  --orange: #e77c45;
+  --yellow: #f3c95f;
+  --sans: 'Avenir Next', 'Trebuchet MS', sans-serif;
+  --heading: 'Georgia', 'Times New Roman', serif;
+
+  font: 16px/1.5 var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+#root {
+  min-height: 100svh;
+}
